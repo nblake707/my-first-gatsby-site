@@ -1,12 +1,12 @@
-import * as React from 'react';
+import * as React from 'react'
+import Layout from '../components/layout'
 
-const AboutPage = () => { 
+const AboutPage = () => {
     return (
-        <main>
-            <h1>About Me</h1>
+        <Layout pageTitle="About Me">
             <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
-        </main>
-    )   
+        </Layout>
+    )
 }
 
 // Use the Gatsby Head API to set page metadata.
